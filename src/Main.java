@@ -25,26 +25,26 @@ public class Main {
 
         // While
 
-        int contador = -3;
+        int numeroWhile = -3;
 
-        while (contador < 0) {
+        while (numeroWhile < 0) {
 
 
-            contador = contador + 1;
-            System.out.println(contador);
+            numeroWhile = numeroWhile + 1;
+            System.out.println(numeroWhile);
 
         }
         System.out.println("Fin de el While, continua abajo.");
 
         // Bucle Do While
 
-        int contador1 = -1;
+        int numeroDoWhile = -1;
 
         do {
-            contador1 = contador1 + 1;
-            System.out.println(contador1);
+            numeroDoWhile = numeroDoWhile + 1;
+            System.out.println(numeroDoWhile);
 
-        } while (contador1 < 0);
+        } while (numeroDoWhile < 0);
 
         System.out.println("Fin de DO While, continua abajo.");
 
